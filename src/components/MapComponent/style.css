@@ -1,0 +1,26 @@
+.map-container{
+        max-width: 500px;
+        max-height: 690px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Oculta scrolls innecesarios */
+        position: relative;
+}
+.special-province-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    fill: #000; /* Para el color del texto */
+    text-transform: uppercase;
+    width: 60px;
+    display: inline-block;
+  }
+
+@media (max-width: 1200px) {
+    .map-container{
+        width: 100%;
+        height: auto;
+    }
+}

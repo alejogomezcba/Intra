@@ -1,0 +1,18 @@
+.map-container {
+    max-width: 300px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+  }
+  .selected {
+    fill: #ff5733; /* Color cuando la provincia está seleccionada */
+  }
+  /* Estilo por defecto de las provincias */
+  .province {
+    fill: #ccc;
+    transition: fill 0.3s ease;
+  }
+  .province:hover {
+    fill: #007bff; /* Color cuando pasas el mouse */
+    cursor: pointer;
+  }

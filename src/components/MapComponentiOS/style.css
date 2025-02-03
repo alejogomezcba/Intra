@@ -1,0 +1,52 @@
+.map-container-ios {
+    max-width: 400px;
+    max-height: 650px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Oculta scrolls innecesarios */
+    position: relative;
+    margin: 0 20px;
+}
+
+.map-image-ios {
+    height: 100%;
+    width: auto;
+    object-fit: contain; /* Mantiene proporciones dentro del contenedor */
+    max-height: 650px; /* Limita la altura al contenedor */
+    max-width: 100%; /* Limita el ancho al contenedor */
+}
+
+@media (max-width: 1200px) {
+    .map-container-ios {
+        max-height: 500px; /* Ajusta altura máxima en pantallas más pequeñas */
+        margin-left: 0; /* Elimina margen para aprovechar mejor el espacio */
+    }
+
+    .map-image-ios {
+        height: 100%; /* Permite que la altura se ajuste */
+        width: 100%; /* La imagen ocupará todo el ancho */
+        object-fit: contain; /* Mantiene proporciones dentro del contenedor */
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-container-ios {
+        max-height: 400px; /* Ajusta la altura aún más para pantallas pequeñas */
+    }
+    .map-image-ios {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-container-ios {
+        max-height: 300px; /* Ajusta la altura para móviles */
+    }
+    .map-image-ios {
+        max-height: 300px;
+    }
+}

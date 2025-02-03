@@ -1,0 +1,25 @@
+.reference-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+}
+
+.reference-item{
+    display: flex;
+    align-items: center;
+}
+
+.reference-color{
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.reference-text {
+    font-size: 0.7rem;
+}

@@ -1,0 +1,77 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 140px;
+    height: 45px;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.province-name {
+     font-size: 14px;
+}
+
+.title{
+    font-size: 12px;
+}
+
+.value{
+    padding: 2px 0;
+    border-radius: 16px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    width: 45px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    /* .item-container {
+        flex-direction: row;
+        height: 30px;
+        width: 320px;
+        justify-content: left;
+        align-items: center;
+    } */
+    .content{
+        width: 30%;
+        justify-content: space-between;
+    }
+    .province-name{
+        font-size: 0.9rem;
+        text-align: left;
+        margin-right: 10px;
+    }
+    .value{
+padding: 2px 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 100%;
+        padding: 0 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .content{
+        width: 45%;
+    }
+    .province-name{
+        width: 45%;
+    }
+}

@@ -1,0 +1,20 @@
+// Opciones para el select
+export const selectOptions = [
+  { label: "RANKING GENERAL", value: "rankingGeneral", id: 17 },
+  { label: "ÉTICA PÚBLICA", value: "eticaPublica", id: 2 },
+  { label: "REGISTROS DE GESTIÓN DE INTERESES", value: "registrosDeGestionDeIntereses", id: 3 },
+  { label: "DECLARACIONES JURADAS", value: "declaracionesJuradas", id: 4 },
+  { label: "ACCESO AL EMPLEO PÚBLICO", value: "accesoAlEmpleoPublico", id: 5 },
+  { label: "NEPOTISMO", value: "nepotismo", id: 6 },
+  { label: "CORRUPCIÓN", value: "corrupcion", id: 7 },
+  { label: "BOLETIN OFICIAL", value: "boletinOficial", id: 9 },
+  { label: "PORTAL DE TRANSPARENCIA", value: "portalTransparencia", id: 10 },
+  { label: "ACCESO A LA INFORMACIÓN", value: "accesoInformacion", id: 11 },
+  { label: "RELACIÓN CON LA PRENSA", value: "relacionPrensa", id: 12 },
+  { label: "PORTAL DE COMPRAS", value: "portalCompras", id: 14 },
+  { label: "PAUTA PUBLICITARIA", value: "pautaPublicitaria", id: 15 },
+  { label: "PRESUPUESTO", value: "presupuesto", id: 16 },
+  { label: "Grupo regulación de ética pública", value: "grupoEtica", id: 1 },
+  { label: "Grupo acceso a información y rendiciones", value: "grupoAcceso", id: 8 },
+  { label: "Grupo gestión de presupuesto y compras", value: "grupoPresupuesto", id: 13 },
+];
