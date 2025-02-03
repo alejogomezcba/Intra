@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <!-- Buenos Aires -->
+  <path id="BuenosAires" class="province" d="M200,300 L300,300 L300,400 L200,400 Z" />
+
+  <!-- Córdoba -->
+  <path id="Cordoba" class="province" d="M300,400 L400,400 L400,500 L300,500 Z" />
+
+  <!-- Santa Fe -->
+  <path id="SantaFe" class="province" d="M400,400 L500,400 L500,500 L400,500 Z" />
+
+  <!-- Mendoza -->
+  <path id="Mendoza" class="province" d="M200,500 L300,500 L300,600 L200,600 Z" />
+
+  <!-- Tucumán -->
+  <path id="Tucuman" class="province" d="M400,300 L500,300 L500,400 L400,400 Z" />
+
+  <!-- Resto de las provincias -->
+  <!-- Puedes agregar más provincias aquí, ajustando sus posiciones y formas. -->
+
+  <!-- Estilo base -->
+  <style>
+    .province {
+      fill: #ccc;
+      stroke: #000;
+      stroke-width: 2px;
+      transition: fill 0.3s ease;
+    }
+    .province:hover {
+      fill: #007bff;
+    }
+  </style>
+</svg>
